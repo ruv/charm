@@ -1,12 +1,19 @@
 
 main#content { max-width: 80em; }
 
+div.content > *:not(table)
+  {
+    max-width: 55rem ;
+    margin-left:  auto ;
+    margin-right: auto ;
+  }
+
+
 div.content
   { margin: auto; }
 div.content b
   { font-family: monospace; font-weight: normal; }
-div.content p
-  { max-width: 50em ; }
+
 _
 , div.content h3:first-child
 , div.content h4:first-child
